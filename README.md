@@ -45,21 +45,22 @@ sections:
 
 ## Credits
 links to all the research made for this project:
-- ### Youtube
+- ### Youtube  
+                                            ### (use ctrl + click to open liks in a new tab) ###
  - Kurzgesagt: https://www.youtube.com/watch?v=mZsaaturR6E&ab_channel=Kurzgesagt%E2%80%93InaNutshell 
  - Udecided with Matt Ferrell: https://www.youtube.com/watch?v=-KEwkWjADEA&ab_channel=UndecidedwithMattFerrell
  - The B1M: https://www.youtube.com/watch?v=4BkOUOK0XzM&ab_channel=TheB1M
 - ### Websites:
-- #### **History:** https://www.atomicarchive.com/history/index.html
+- #### **History:** https://www.atomicarchive.com/history/index.html  
       A comprehensive section chronicling the discovery of nuclear fission, the race for the atomic bomb, <br> 
       the development of the hydrogen bomb and the ensuing Cold War and beyond.  
-    - **<a href="https://www.atomicarchive.com/history/first-pile/index.html" target="_blank"> The First Pile:</a>** The saga of man’s first controlled, self-sustaining nuclear chain reaction.
-    - **The Manhattan project:** The Manhattan Project: Making the Atomic Bomb” is a history of the American atomic bomb program during World War II.
-    - **The Trinity test:** On July 16, 1945 the world changed with the explosion of the first atomic bomb that took place at Trinity Site.
-    - **Atomic Bombing of Hiroshima:** At 8:15 on August 6, 1945, the world's first atomic bomb was dropped on Hiroshima. Almost the entire city was devastated in that single moment.
-    - **Atomic Bombing of Nagasaki**: At 11:02 a.m. on August 9, 1945, the explosion of a second atomic bomb devastated the city of Nagasaki.
-    - **Race for the Hydrogen bomb:** As the American and Soviet nuclear programs took root and grew, and the race for the hydrogen bomb was soon on.
-    - **Cuban Missile Crisis:** Learn about the 13-day political and military standoff in October 1962 over the installation of nuclear-armed Soviet missiles on Cuba
-    - **Cold War- A brief History:** Explore the critical events of the Cold War between the United States and the Soviet Union.
-    - **The British Mission:** How a small group of British scientists aided in the development of the first atomic bomb.
-    - **Manhattan project Signature Facilities:** Information on the Department of Energy’s Manhattan Project “Signature Facilities”.
+    - **<a href="https://www.atomicarchive.com/history/first-pile/index.html" target="_blank">The First Pile:</a>** The saga of man’s first controlled, self-sustaining nuclear chain reaction.
+    - **<a href="https://www.atomicarchive.com/history/first-pile/index.html" target="_blank">The Manhattan project:</a>** The Manhattan Project: Making the Atomic Bomb” is a history of the American atomic bomb program during World War II.
+    - **<a href="https://www.atomicarchive.com/history/first-pile/index.html" target="_blank">The Trinity test:</a>** On July 16, 1945 the world changed with the explosion of the first atomic bomb that took place at Trinity Site.
+    - **<a href="https://www.atomicarchive.com/history/first-pile/index.html" target="_blank">Atomic Bombing of Hiroshima:</a>** At 8:15 on August 6, 1945, the world's first atomic bomb was dropped on Hiroshima. Almost the entire city was devastated in that single moment.
+    - **<a href="https://www.atomicarchive.com/history/first-pile/index.html" target="_blank">Atomic Bombing of Nagasaki:</a>** At 11:02 a.m. on August 9, 1945, the explosion of a second atomic bomb devastated the city of Nagasaki.
+    - **<a href="https://www.atomicarchive.com/history/first-pile/index.html" target="_blank">Race for the Hydrogen bomb:</a>** As the American and Soviet nuclear programs took root and grew, and the race for the hydrogen bomb was soon on.
+    - **<a href="https://www.atomicarchive.com/history/first-pile/index.html" target="_blank">Cuban Missile Crisis:</a>** Learn about the 13-day political and military standoff in October 1962 over the installation of nuclear-armed Soviet missiles on Cuba
+    - **<a href="https://www.atomicarchive.com/history/first-pile/index.html" target="_blank">Cold War- A brief History:</a>** Explore the critical events of the Cold War between the United States and the Soviet Union.
+    - **<a href="https://www.atomicarchive.com/history/first-pile/index.html" target="_blank">The British Mission:</a>** How a small group of British scientists aided in the development of the first atomic bomb.
+    - **<a href="https://www.atomicarchive.com/history/first-pile/index.html" target="_blank">Manhattan project Signature Facilities:</a>** Information on the Department of Energy’s Manhattan Project “Signature Facilities”.
