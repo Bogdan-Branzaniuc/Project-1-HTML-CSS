@@ -1,108 +1,65 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Nuclear Fusion
 
-Welcome USER_NAME,
+**This is a project that provides it's users with knowledge about Nuclear Fusion as follows:** <br>
+* basic knowledge about the process of fusion
+  - the way fusion works
+  - the difference between nuclear fusion and nuclear fission
+* in-depth knowledge about both fusion and fision
+  - historical context
+  - detailed procedures of both fision and fusion and types of nuclear reactors
+* where do we stand in the present from a technological point of view
+  - ongoing projects and mega-projects in the field of nuclear fusion 
+* **major breakthrough's**, and why are they **major**
+  - Understanding what is at stake
+  - The incredible pace we need to mentain in research and inovation
+  - results and discoveries achieved in this field
+* speculative long-term future of Nuclear fusion
+  - representing the potential scale and power this technology could reach in the future.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This website targets everybody on Planet Earth with modest knowledge of science who likes inovation, including myself, as I will be learning a lot along the way.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+## Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* ### Landing page
+sections:
+  - introductory-section
+  - **fusion**-concept-explained-section
+  - **fision**-concept-explained-section
+  - fusion-efficency-section
+  - energy-storage-solutions-section
+* ### In-depth page 
+sections:
+  - history section
+  -
+* ### major breakthroughs page
+sections:
+* ### Future page 
+sections:
+* ### Feedback page 
+sections:
 
-`python3 -m http.server`
+## Technoligies used
 
-A blue button should appear to click: _Make Public_,
+## Testing
 
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+## Credits
+links to all the research made for this project:
+- ### Youtube
+ - Kurzgesagt: https://www.youtube.com/watch?v=mZsaaturR6E&ab_channel=Kurzgesagt%E2%80%93InaNutshell 
+ - Udecided with Matt Ferrell: https://www.youtube.com/watch?v=-KEwkWjADEA&ab_channel=UndecidedwithMattFerrell
+ - The B1M: https://www.youtube.com/watch?v=4BkOUOK0XzM&ab_channel=TheB1M
+- ### Websites:
+- #### **History:** https://www.atomicarchive.com/history/index.html
+      A comprehensive section chronicling the discovery of nuclear fission, the race for the atomic bomb, <br> 
+      the development of the hydrogen bomb and the ensuing Cold War and beyond.  
+    - **<a href="https://www.atomicarchive.com/history/first-pile/index.html" target="_blank"> The First Pile:</a>** The saga of man’s first controlled, self-sustaining nuclear chain reaction.
+    - **The Manhattan project:** The Manhattan Project: Making the Atomic Bomb” is a history of the American atomic bomb program during World War II.
+    - **The Trinity test:** On July 16, 1945 the world changed with the explosion of the first atomic bomb that took place at Trinity Site.
+    - **Atomic Bombing of Hiroshima:** At 8:15 on August 6, 1945, the world's first atomic bomb was dropped on Hiroshima. Almost the entire city was devastated in that single moment.
+    - **Atomic Bombing of Nagasaki**: At 11:02 a.m. on August 9, 1945, the explosion of a second atomic bomb devastated the city of Nagasaki.
+    - **Race for the Hydrogen bomb:** As the American and Soviet nuclear programs took root and grew, and the race for the hydrogen bomb was soon on.
+    - **Cuban Missile Crisis:** Learn about the 13-day political and military standoff in October 1962 over the installation of nuclear-armed Soviet missiles on Cuba
+    - **Cold War- A brief History:** Explore the critical events of the Cold War between the United States and the Soviet Union.
+    - **The British Mission:** How a small group of British scientists aided in the development of the first atomic bomb.
+    - **Manhattan project Signature Facilities:** Information on the Department of Energy’s Manhattan Project “Signature Facilities”.
