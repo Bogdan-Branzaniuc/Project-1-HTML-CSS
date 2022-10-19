@@ -47,6 +47,7 @@ sections:
 links to all the research made for this project:
 - ### Youtube  
                                             ### (use ctrl + click to open liks in a new tab) ###
+ - TED_Ed : https://www.youtube.com/watch?v=r4OWMSG4Agg&ab_channel=TED-Ed  The world's biggest battery looks nothing like a battery                                     
  - Kurzgesagt: https://www.youtube.com/watch?v=mZsaaturR6E&ab_channel=Kurzgesagt%E2%80%93InaNutshell 
  - Udecided with Matt Ferrell: https://www.youtube.com/watch?v=-KEwkWjADEA&ab_channel=UndecidedwithMattFerrell
  - The B1M: https://www.youtube.com/watch?v=4BkOUOK0XzM&ab_channel=TheB1M
