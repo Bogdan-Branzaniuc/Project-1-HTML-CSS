@@ -51,7 +51,7 @@ sections:
 HTML
 CSS
 JavaScript
-
+Figma-design
 Adobe illustrator
 Adobe After Effects
 
