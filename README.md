@@ -30,18 +30,34 @@ sections:
   - energy-storage-solutions-section
 * ### In-depth page 
 sections:
-  - history section
-  -
-* ### major breakthroughs page
+  - atomic-history-section
+  - fision-section
+  - fusion-section
+* ### Progress 
 sections:
+  - ongoing-experimental-projects-section
+  - major-breakthroughs-section
 * ### Future page 
 sections:
-* ### Feedback page 
-sections:
+  - short-progress-recap-section
+  - future-visions-section
+* ### Creators 
+sections: 
+  - self-description-section
+  - send-me-a-feedback-section
+
 
 ## Technoligies used
+HTML
+CSS
+JavaScript
+
+Adobe illustrator
+Adobe After Effects
 
 ## Testing
+
+## Illustrations
 
 ## Credits
 links to all the research made for this project:
