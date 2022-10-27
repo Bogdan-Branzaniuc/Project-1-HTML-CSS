@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
     <meta charset="UTF-8">
@@ -11,25 +11,33 @@
 </head>
 
 <body>
-    <nav>
-        <h1>Nuclear Fusion</h1>
-        <div><button>Home</button>
-            <button>In Depth</button>
-            <button>Progress</button>
-            <button>Future</button>
-            <button>Feedback</button>
-        </div>
-    </nav>
-    <nav>
-        <div id="side-scroll-menu">
-            <i class="fa-sharp fa-solid fa-sun"></i>
-            <i class="fa-solid fa-scroll-torah"></i>
-            <i class="fa-solid fa-explosion"></i>
-            <i class="fa-solid fa-gears"></i>
-            <i class="fa-solid fa-battery-three-quarters"></i>
-        </div>
-    </nav>
-    <section id="introductory-section">
+    <header>
+        <nav id="main-nav">
+            <a href="index.html" id="logo">
+                Nuclear Fusion
+            </a>
+            <ul id="menu">
+                <li><a href="">Feedback</a></li>
+                <li><a href="">Future</a></li>
+                <li><a href="">Progress</a></li>
+                <li><a href="">In Depth</a></li>
+                <li><a href="">Home</a></li>
+            </ul>
+        </nav>
+
+        <nav id="secondary-nav">
+            <ul id="side-scroll-menu">
+                <li><a href="" target="_blank"><i class="fa-sharp fa-solid fa-sun"></i></a></li>
+                <li><a href="" target="_blank"><i class="fa-solid fa-scroll-torah"></i></a></li>
+                <li><a href="" target="_blank"><i class="fa-solid fa-explosion"></i></a></li>
+                <li><a href="" target="_blank"><i class="fa-solid fa-gears"></i></a></li>
+                <li><a href="" target="_blank"><i class="fa-solid fa-battery-three-quarters"></i></a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section id="introductory-section" class="home-section">
         <div>
             <h1>Why Nuclear Fusion?</h1>
             <p>The bigger the problem one technology solves, the bigger the overall interest in it, thus the faster it
@@ -38,7 +46,7 @@
                 Human Kind</p>
         </div>
     </section>
-    <section id="fusion-explained">
+    <section id="fusion-explained" class="home-section">
         <div>
             <h2>Fusion</h2>
             <p>Fusion is achieved by heating and maintaingin a plasma at extreme temperatures and density, where the
@@ -46,12 +54,12 @@
             <p>As a result of this process, energy is released up to 4 milion times more than burning the same quantity
                 of fossil fuels.</p>
             <p>The best example of Fusion Reaction is our Sun.</p>
-            <p>Due to it’s mass and gravity, the necessary density and temperature allows for Nuclear Fusion to occur.
+            <p>Due to it's mass and gravity, the necessary density and temperature allows for Nuclear Fusion to occur.
             </p>
         </div>
         <div class="animation-div" id="fusion-explained-animation"></div>
     </section>
-    <section id="fision-explained">
+    <section id="fision-explained" class="home-section">
         <div>
             <h2>Fision</h2>
             <p>In a Fission reaction, we are looking at a bigger atom that gets split into two or more smaller nuclei by
@@ -64,7 +72,7 @@
         </div>
         <div class="animation-div" id="fision-explained-animation"></div>
     </section>
-    <section id="fusion-efficiency">
+    <section id="fusion-efficiency" class="home-section">
         <div>
             <h2>Fusion efficency</h2>
             <p>On 21 December 2021 Joint European Tours (JET) had an output of 59 megajoules. The fusion reactor
@@ -76,7 +84,7 @@
         </div>
         <div class="animation-div" id="fusion-efficency-animation"></div>
     </section>
-    <section id="energy-storage">
+    <section id="energy-storage" class="home-section">
         <div>
             <h2>Energy Storage</h2>
             <p>By achieving a big amount of energy we need better ways of storing it. </p>
@@ -89,9 +97,9 @@
             </p>
         </div>
         <div class="animation-div" id="energy-storage-animation"></div>
-        <div>
+        <!-- <div>
             <iframe src="https://www.youtube.com/embed/r4OWMSG4Agg" frameborder=" 1"></iframe>
-        </div>
+        </div> -->
     </section>
     <footer>
         <h1>Nuclear Fusion</h1>
