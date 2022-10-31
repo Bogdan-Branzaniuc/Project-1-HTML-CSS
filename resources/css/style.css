@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +9,10 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
+    font-size: 19px;
     color: #ffffff;
     background-color: #69807E;
+    overflow-x: hidden
 }
 
 h1,
@@ -79,17 +83,52 @@ li>a {
 }
 
 #introductory-section {
+    background: url('../img/tokamak.jpg') no-repeat;
     text-align: left;
     padding-top: 40vh;
+    width: 100%;
+    height: 90vh;
 }
 
 #introductory-section div {
 
-    max-width: 400px;
+    max-width: 500px;
     float: left;
     margin-left: 20vw;
 }
 
 #intrintroductory-section div>* {
     margin: 100px;
+}
+
+.home-page-section-template {
+    height: 90vh;
+    width: 100%;
+    border: solid 1px rgba(218, 218, 206, 0.205)
+}
+
+.home-page-section-template .text-heading {
+    display: inline-block;
+    max-width: 500px;
+    margin: 20%;
+    text-align: left;
+}
+
+.energy-storage-section {
+    position: relative;
+    height: 170vh;
+}
+
+.energy-storage-section #iframe-youtube-homepage {
+    padding-left: 30%;
+}
+
+
+#iframe-youtube-homepage {
+    width: 900px;
+    height: 600px;
+}
+
+footer {
+    background-color: #202B31;
 }
