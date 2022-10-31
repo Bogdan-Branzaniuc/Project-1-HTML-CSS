@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="resources/fontawesome/css/all.css">
     <link rel="stylesheet" href="resources/css/style.css">
+    <script src="js/scorll.js"></script>
 </head>
 
 <body>
@@ -16,23 +17,37 @@
             <a href="index.html" id="logo">
                 Nuclear Fusion
             </a>
-            <ul id="menu">
-                <li><a href="">Feedback</a></li>
-                <li><a href="">Future</a></li>
-                <li><a href="">Progress</a></li>
-                <li><a href="">In Depth</a></li>
-                <li><a href="">Home</a></li>
-            </ul>
+            <div id="menu">
+                <ul>
+                    <li><a href="">Feedback</a></li>
+                    <li><a href="">Future</a></li>
+                    <li><a href="">Progress</a></li>
+                    <li><a href="">In Depth</a></li>
+                    <li><a href="">Home</a></li>
+                </ul>
+            </div>
         </nav>
 
         <nav id="secondary-nav">
             <ul id="side-scroll-menu">
-                <li><a href="" target="_blank"><i class="fa-sharp fa-solid fa-sun"></i></a></li>
-                <li><a href="" target="_blank"><i class="fa-solid fa-scroll-torah"></i></a></li>
-                <li><a href="" target="_blank"><i class="fa-solid fa-explosion"></i></a></li>
-                <li><a href="" target="_blank"><i class="fa-solid fa-gears"></i></a></li>
-                <li><a href="" target="_blank"><i class="fa-solid fa-battery-three-quarters"></i></a></li>
+                <li><a href="#introductory-section" target="_self">
+                        <div id="link-area"><i class="fa-sharp fa-solid fa-sun"></i></div>
+                    </a></li>
+                <li><a href="#fusion-explained" target="_self">
+                        <div id="link-area"><i class="fa-solid fa-scroll-torah"></i></div>
+                    </a></li>
+                <li><a href="#fision-explained" target="_self">
+                        <div id="link-area"><i class="fa-solid fa-explosion"></i></div>
+                    </a></li>
+                <li><a href="#fusion-efficiency" target="_self">
+                        <div id="link-area"><i class="fa-solid fa-gears"></i></div>
+                    </a></li>
+                <li><a href="#energy-storage" target="_self">
+                        <div id="link-area"><i class="fa-solid fa-battery-three-quarters"></i></div>
+                    </a>
+                </li>
             </ul>
+            <div id="scroll-bar"></div>
         </nav>
 
     </header>
