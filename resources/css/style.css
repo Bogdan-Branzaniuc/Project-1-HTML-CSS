@@ -118,22 +118,51 @@ li>a {
 }
 
 #introductory-section {
-    background: url('../img/tokamak.jpg') no-repeat;
-    text-align: left;
+    background: rgb(32, 43, 49);
+    background: linear-gradient(180deg, rgba(32, 43, 49, 1) 15%, rgba(32, 43, 49, 0.7231267507002801) 46%, rgba(32, 43, 49, 0) 100%);
+    position: relative;
+    z-index: -1;
     padding-top: 40vh;
-    width: 100%;
+    width: 100vw;
     height: 90vh;
 }
 
-#introductory-section div {
-
-    max-width: 500px;
-    float: left;
-    margin-left: 20vw;
+.lottie-intro-section {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#intrintroductory-section div>* {
-    margin: 100px;
+#intro-section-lottie-bg2 {
+    z-index: -3;
+}
+
+#gradient-intro-section-lottie {
+    background: rgb(244, 245, 159);
+    background: radial-gradient(circle, rgba(244, 245, 159, 1) 0%, rgba(244, 245, 159, 0.35057773109243695) 31%, rgba(244, 245, 159, 0) 57%, rgba(244, 245, 159, 0) 100%, rgba(244, 245, 159, 0) 100%);
+    position: absolute;
+    z-index: -2;
+    width: 90%;
+    height: 100%;
+    bottom: 5%;
+    left: 40%;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#introductory-section .text-heading {
+    position: relative;
+    max-width: 500px;
+    text-align: left;
+    float: left;
+    margin-left: 20vw;
 }
 
 .home-page-section-template {

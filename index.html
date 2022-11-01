@@ -12,6 +12,9 @@
 </head>
 
 <body>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="js/lottiePlayer.js"></script>
+
     <header>
         <nav id="main-nav">
             <a href="index.html" id="logo">
@@ -53,6 +56,16 @@
     </header>
 
     <section id="introductory-section">
+        <div id="intro-section-lottie-bg" class="lottie-intro-section">
+            <lottie-player src="resources/lottie-files/tokamak-foreground.json" background="transparent" speed="1"
+                autoplay loop></lottie-player>
+        </div>
+        <div id="gradient-intro-section-lottie"></div>
+        <div id="intro-section-lottie-bg2" class="lottie-intro-section">
+            <lottie-player src="resources/lottie-files/tokamak-backgroun.json" background="transparent" speed="1"
+                autoplay loop></lottie-player>
+        </div>
+
         <div class="text-heading">
             <h1>Why Nuclear Fusion?</h1><br>
             <p>The bigger the problem one technology solves, the bigger the overall interest in it, thus the faster it
@@ -61,6 +74,8 @@
                 Human Kind</p><br>
         </div>
     </section>
+
+
     <section id="fusion-explained" class="home-page-section-template">
         <div class="text-heading">
             <h2>Fusion</h2><br>
@@ -127,5 +142,6 @@
         <h4>copyright</h4>
     </footer>
 </body>
+
 
 </html>
