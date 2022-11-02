@@ -4,9 +4,9 @@
 * basic knowledge about the process of fusion
   - the way fusion works
   - the difference between nuclear fusion and nuclear fission
-* in-depth knowledge about both fusion and fision
-  - historical context
-  - detailed procedures of both fision and fusion and types of nuclear reactors
+* in-depth knowledge about fusion
+  - historical context of fusion
+  - detailed procedures of fusion and types of fusion reactors
 * where do we stand in the present from a technological point of view
   - ongoing projects and mega-projects in the field of nuclear fusion 
 * **major breakthrough's**, and why are they **major**
@@ -15,7 +15,8 @@
   - results and discoveries achieved in this field
 * speculative long-term future of Nuclear fusion
   - representing the potential scale and power this technology could reach in the future.
-
+* A history of Atomic Era and atomic related-experiments
+* A page designed for feedback to this project contributors. (just one for the moment).
 This website targets everybody on Planet Earth with modest knowledge of science who likes inovation, including myself, as I will be learning a lot along the way.
 
 
@@ -30,17 +31,17 @@ sections:
   - energy-storage-solutions-section
 * ### In-depth page 
 sections:
-  - atomic-history-section
-  - fision-section
-  - fusion-section
-* ### Progress 
+  - fusion-history
+  - fusion-techniques and types of reactors
+* ### Present 
 sections:
   - ongoing-experimental-projects-section
   - major-breakthroughs-section
-* ### Future page 
+  - potential
+* ### Atomic-Era page
 sections:
-  - short-progress-recap-section
-  - future-visions-section
+  - atomic-history
+  - atomic-related-experiments
 * ### Creators 
 sections: 
   - self-description-section
