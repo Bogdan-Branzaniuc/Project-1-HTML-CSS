@@ -1,0 +1,67 @@
+#introduction-experiments-section {
+    position: relative;
+    z-index: -4;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    padding-left: 20vw;
+}
+
+.text-wrapper {
+    max-width: 600px;
+    margin: 200px 0;
+}
+
+.progress-section-template {
+    padding-top: 100px;
+    padding-left: 20vw;
+    min-height: 70vh;
+}
+
+.styled-heading-left-side {
+    float: left;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 4px;
+    color: #ffffff;
+    line-height: 60px;
+    font-size: 300%;
+    width: 30%;
+}
+
+.styled-heading-right-side {
+    line-height: 30px;
+    width: 100%;
+}
+
+.styled-heading-right-side,
+.styled-heading-left-side {
+    padding-bottom: 30px;
+}
+
+.wrapper-column1 {
+    max-width: 600px;
+    display: inline-block;
+    top: 0;
+}
+
+.wrapper-column2 {
+    max-width: 600px;
+    margin-left: 10vw;
+    display: inline-block;
+}
+
+.wrapper-column1 h1,
+h2,
+.wrapper-column2 h1,
+h2 {
+    margin: 0 0 40px 0;
+}
+
+.wrapper-column1 p,
+.wrapper-column2p {
+    margin: 40px 0;
+}
+
+#roadmap-img {
+    width: 100%;
+    border-radius: 10px;
+}
