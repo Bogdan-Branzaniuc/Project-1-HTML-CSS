@@ -103,7 +103,7 @@ li>a {
 #side-scroll-menu li {
     position: relative;
     list-style-type: none;
-    height: 20%;
+    /* height: 20%;  the height for this element is interractively set in scroll.js file, as the number of links differs from page to page*/
     padding: 2px;
 }
 
@@ -184,8 +184,12 @@ li>a {
     position: relative;
     max-width: 500px;
     text-align: left;
-    float: left;
     margin-left: 20vw;
+    margin-bottom: 10vh;
+}
+
+#introductory-section .text-heading>p {
+    max-width: 400px;
 }
 
 .home-page-section-template {
