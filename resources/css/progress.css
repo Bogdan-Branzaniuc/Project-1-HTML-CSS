@@ -3,6 +3,11 @@ a {
     color: white;
 }
 
+.progress-section-template a:hover {
+    font-size: 20px;
+    border: solid 1px white;
+}
+
 #introduction-experiments-section {
     position: relative;
     z-index: -4;
@@ -13,7 +18,7 @@ a {
 
 .text-wrapper {
     max-width: 600px;
-    margin: 200px 0;
+    margin: 200px 0 100px 0;
 }
 
 .progress-section-template {
@@ -158,4 +163,36 @@ img {
 #wendelstein-7x-iframe-video {
     width: 100%;
     height: 400px;
+}
+
+#mit-iframe {
+    width: 100%;
+    height: 500px;
+}
+
+#helion-technology-iframe {
+    width: 80%;
+    height: 700px;
+}
+
+#mit-left-hand-heading {
+    width: 30%;
+    line-height: 60px;
+}
+
+#mit-right-hand-heading {
+    line-height: 30px;
+}
+
+#helion-left-hand-heading {
+    width: 60%;
+    line-height: 60px;
+}
+
+#other-projects-left-heading {
+    width: 25%;
+}
+
+#other-projects-right-heading {
+    width: 70%;
 }
