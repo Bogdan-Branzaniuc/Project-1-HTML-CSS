@@ -21,7 +21,7 @@ a {
     padding-top: 100px;
     padding-left: 20vw;
     min-height: 70vh;
-    z-index: -10;
+
 }
 
 .styled-heading-left-side {
@@ -51,6 +51,7 @@ a {
 }
 
 .wrapper-column2 {
+    position: relative;
     max-width: 900px;
     margin-left: 10vw;
     display: inline-block;
@@ -74,11 +75,14 @@ img {
 }
 
 #roadmap-img {
-    border-radius: 10px;
+    position: absolute;
+    bottom: -130px;
+    left: -30%;
 }
 
 #tokamak-reactor-img {
-    padding-bottom: 100px;
+    position: absolute;
+    bottom: 100px;
 }
 
 #cooperation-agreements-text {
@@ -88,7 +92,38 @@ img {
 }
 
 .wrapper-column2 table {
+    margin-bottom: 50px;
+}
+
+.wrapper-column2 table td {
     text-align: left;
-    border-spacing: 100px;
-    width: 100%;
+}
+
+.wrapper-column2 table #right {
+    text-align: left;
+    padding-left: 50px;
+}
+
+#table-wrapper {
+    position: absolute;
+    margin-top: 100px;
+}
+
+#jet-iframe {
+    width: 80%;
+    height: 800px;
+    border: #ffffff;
+    margin-bottom: 50px;
+}
+
+#jet-details-3-columns {
+    display: flex;
+    align-items: stretch;
+    width: 80%;
+    height: 600px;
+}
+
+.jet-details-column {
+    width: 30%;
+    padding: 0;
 }
