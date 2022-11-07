@@ -1,3 +1,8 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
 #introduction-experiments-section {
     position: relative;
     z-index: -4;
@@ -12,9 +17,11 @@
 }
 
 .progress-section-template {
+    position: relative;
     padding-top: 100px;
     padding-left: 20vw;
     min-height: 70vh;
+    z-index: -10;
 }
 
 .styled-heading-left-side {
@@ -44,7 +51,7 @@
 }
 
 .wrapper-column2 {
-    max-width: 600px;
+    max-width: 900px;
     margin-left: 10vw;
     display: inline-block;
 }
@@ -57,11 +64,31 @@ h2 {
 }
 
 .wrapper-column1 p,
-.wrapper-column2p {
+.wrapper-column2 p {
     margin: 40px 0;
+    max-width: 600px;
+}
+
+img {
+    border-radius: 10px;
 }
 
 #roadmap-img {
-    width: 100%;
     border-radius: 10px;
+}
+
+#tokamak-reactor-img {
+    padding-bottom: 100px;
+}
+
+#cooperation-agreements-text {
+    position: absolute;
+    top: 30%;
+    right: 20vw;
+}
+
+.wrapper-column2 table {
+    text-align: left;
+    border-spacing: 100px;
+    width: 100%;
 }
