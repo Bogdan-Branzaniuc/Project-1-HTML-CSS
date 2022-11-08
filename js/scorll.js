@@ -15,19 +15,19 @@ function setMenuLinkHeight() {
     const documentHeight = Math.max(body.scrollHeight, body.offsetHeight,
         html.clientHeight, html.scrollHeight, html.offsetHeight);
     console.log(documentHeight)
+    const offsetScrollIntoView = 150
 
 
     for (let li of liElements) {
         const sectionId = li.firstChild.hash
         const sectionHeight = document.querySelector(`${sectionId}`).offsetHeight
-        let liHeight = Math.ceil(((sectionHeight + 150) / documentHeight) * 100)
+        let liHeight = Math.floor(((sectionHeight + offsetScrollIntoView) / documentHeight) * 100)
 
         if (liHeight == Infinity) {
             li.style.height = 0
         } else {
             li.style.height = liHeight + "%"
         }
-        console.log(li.style.height)
     }
 }
 

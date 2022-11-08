@@ -8,17 +8,34 @@ a {
     border: solid 1px white;
 }
 
+.section-heading-container {
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.section-heading-container h1 {
+    width: 250px;
+
+}
+
+.section-heading-container p {
+    margin: 0;
+    width: 70%;
+}
+
 #introduction-experiments-section {
     position: relative;
     z-index: -4;
     padding-top: 300px;
     padding-bottom: 300px;
-    padding-left: 20vw;
 }
 
 .text-wrapper {
-    max-width: 600px;
+    max-width: 30em;
     margin: 200px 0 100px 0;
+
 }
 
 .progress-section-template {
@@ -27,71 +44,18 @@ a {
     min-height: 70vh;
 }
 
-.styled-heading-left-side {
-    float: left;
-    font-family: Oswald, sans-serif;
-    letter-spacing: 4px;
-    color: #ffffff;
-    line-height: 60px;
-    font-size: 300%;
-    width: 30%;
-}
-
-.styled-heading-right-side {
-    line-height: 30px;
-    width: 100%;
-}
-
-.styled-heading-right-side,
-.styled-heading-left-side {
-    padding-bottom: 30px;
-}
-
-.section-wrapper-2-columns {
-    display: flex;
-    align-items: flex-start;
-    margin: 100px 0;
-    width: 100%;
-}
-
-.wrapper-column1 {
-    width: 50%;
-    padding: 0 40px 0 0;
-    max-width: 600px;
-}
-
-.wrapper-column1>p {
-    max-width: 500px;
-}
-
-.wrapper-column2 {
-    width: 40%;
-    margin-left: 10%;
-}
-
-.wrapper-column1 h1,
-h2,
-.wrapper-column2 h1,
-h2 {
-    margin: 0 0 40px 0;
-}
-
-.wrapper-column1 p,
-.wrapper-column2 p {
-    margin: 40px 0;
-    max-width: 600px;
-}
-
 img {
     border-radius: 10px;
 }
 
 #roadmap-img {
-    margin: -150px 100px 0 0;
+    width: 100%;
+    height: 100%;
 }
 
 #tokamak-reactor-img {
     margin-top: 100px;
+    width: 100%;
 }
 
 #cooperation-agreements-text {
@@ -117,7 +81,7 @@ img {
 
 #jet-iframe {
     width: 80%;
-    height: 800px;
+    height: 50vh;
     border: #ffffff;
     margin-bottom: 50px;
 }
@@ -125,36 +89,23 @@ img {
 #jet-details-3-columns {
     display: flex;
     align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 80%;
 }
 
 .jet-details-column {
-    width: 30%;
-    padding: 0 50px;
+    width: 29%;
+    padding: 0 1%;
+    margin: 2% 0;
 }
 
 #wendelstein-section {
     margin-top: 400px;
 }
 
-.wendelstein-heading-container {
-    width: 60%;
-    display: flex;
-    align-items: flex-start;
-}
-
-.wendelstein-heading-container h1 {
-    line-height: 50px;
-    min-width: 300px;
-}
-
-.wendelstein-heading-container p {
-    line-height: 25px;
-}
-
 #stellerator-immage {
     width: 100%;
-    height: 500px;
 
     border-radius: 10px;
     background-color: white;
@@ -167,7 +118,7 @@ img {
 
 #mit-iframe {
     width: 100%;
-    height: 500px;
+    height: 30vh;
 }
 
 #helion-technology-iframe {
@@ -175,24 +126,27 @@ img {
     height: 700px;
 }
 
-#mit-left-hand-heading {
-    width: 30%;
-    line-height: 60px;
-}
 
-#mit-right-hand-heading {
-    line-height: 30px;
-}
+@media screen and (max-width:1600px) {
 
-#helion-left-hand-heading {
-    width: 60%;
-    line-height: 60px;
-}
+    .progress-section-template {
+        margin: 0 3%;
+    }
 
-#other-projects-left-heading {
-    width: 25%;
-}
+    #jet-iframe {
+        width: 100%;
+        height: 30vh;
+        border: #ffffff;
+        margin-bottom: 50px;
+    }
 
-#other-projects-right-heading {
-    width: 70%;
+    #jet-details-3-columns {
+        width: 97%;
+    }
+
+
+    .jet-details-column {
+        width: 100%;
+        padding: 0;
+    }
 }
