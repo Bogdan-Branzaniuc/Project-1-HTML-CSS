@@ -10,21 +10,24 @@ window.onscroll = () => scrollProgress();
 
 function setMenuLinkHeight() {
     const liElements = document.querySelectorAll("#side-scroll-menu li")
+    const body = document.body;
+    const html = document.documentElement;
+    const documentHeight = Math.max(body.scrollHeight, body.offsetHeight,
+        html.clientHeight, html.scrollHeight, html.offsetHeight);
+    console.log(documentHeight)
+
 
     for (let li of liElements) {
-        let sectionId = li.firstChild.href.split("#")[1]
-        let sectionOffsetTop = document.getElementById(`${sectionId}`).offsetTop
-        let liHeight = Math.floor((window.innerHeight / sectionOffsetTop) * 100)
-
-        console.log(Math.floor((window.innerHeight / sectionOffsetTop) * 100))
+        const sectionId = li.firstChild.hash
+        const sectionHeight = document.querySelector(`${sectionId}`).offsetHeight
+        let liHeight = Math.ceil(((sectionHeight + 150) / documentHeight) * 100)
 
         if (liHeight == Infinity) {
-            li.style.height = 0 + "%"
-            console.log(li.style.height)
+            li.style.height = 0
         } else {
             li.style.height = liHeight + "%"
-            console.log(li.style.height)
         }
+        console.log(li.style.height)
     }
 }
 
