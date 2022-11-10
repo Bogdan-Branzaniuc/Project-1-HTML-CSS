@@ -1,0 +1,158 @@
+#when-landscape-mode-wrapper {
+    position: fixed;
+}
+
+#secondary-nav {
+    position: fixed;
+    border-radius: 5px;
+    margin: 14vh 0 14vh 10px;
+    height: 75vh;
+    width: 30px;
+    background-color: #202B31;
+}
+
+#side-scroll-menu {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 3;
+}
+
+#scroll-bar {
+    position: absolute;
+    top: 0%;
+    border-radius: 5px;
+    width: 100%;
+    height: 0%;
+    background-color: rgb(223, 156, 13);
+    z-index: 1;
+}
+
+
+#side-scroll-menu li {
+    list-style-type: none;
+    width: 100%;
+}
+
+#side-scroll-menu li a {
+    width: 100%;
+    height: 100%;
+}
+
+#side-scroll-menu li a .side-menu-label {
+    position: absolute;
+    top: 0;
+    left: 50px;
+}
+
+#side-scroll-menu li a .side-menu-label {
+    display: none;
+}
+
+#side-scroll-menu li a #link-area {
+    position: relative;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+#side-scroll-menu li a #link-area:hover+i {
+    scale: 1.3;
+    color: rgb(255, 255, 255);
+}
+
+#side-scroll-menu li a #link-area:hover+.side-menu-label {}
+
+
+@media (orientation: landscape) {
+    #when-landscape-wrapper {
+        position: fixed;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 10%;
+    }
+
+    #main-nav {
+        display: block-element;
+        position: static;
+        height: 50%;
+    }
+
+    #secondary-nav {
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        margin: 0;
+        height: 50%;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    #scroll-bar {
+        position: absolute;
+        width: 0;
+        height: 100%;
+        background-color: rgb(223, 156, 13);
+        border-radius: 0;
+    }
+
+    #side-scroll-menu {
+        padding: 0% 2%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+    }
+
+    #side-scroll-menu a {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    #side-scroll-menu a #link-area {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    #side-scroll-menu li {
+        list-style-type: none;
+        height: 100%;
+        width: 100%;
+    }
+
+    #side-scroll-menu li a .side-menu-label {}
+
+    #side-scroll-menu li a #link-area:hover>i {
+        scale: 1.3;
+        color: rgb(255, 255, 255);
+    }
+
+    #side-scroll-menu li a .side-menu-label {
+        display: none;
+    }
+
+    #side-scroll-menu li a #link-area:hover+.side-menu-label {
+        display: block;
+    }
+}
+
+/* 
+@media screen and (max-width:767px) {
+
+    #main-nav {
+        height: 5%;
+    }
+
+    #main-nav #logo {
+        width: 60%;
+    }
+} */
