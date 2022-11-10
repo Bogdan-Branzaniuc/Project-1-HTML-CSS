@@ -1,8 +1,32 @@
+let screenOrientation
+
+window.addEventListener("load", () => {
+    screenOrientation = screen.orientation.type
+    console.log(screenOrientation)
+});
+
+screen.orientation.addEventListener("change", () => {
+    screenOrientation = screen.orientation.type
+    console.log(screenOrientation)
+});
+
+let supportsOrientationChange = "onorientationchange" in window,
+    orientationEvent = supportsOrientationChange ? "orientationchange" : "resize";
+
+window.addEventListener(orientationEvent, function () {
+    window.location.reload()
+}, false);
+
 function scrollProgress() {
     const scroll = document.body.scrollTop || document.documentElement.scrollTop;
     const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     const scrolled = (scroll / height) * 100;
-    document.getElementById("scroll-bar").style.height = scrolled + "%";
+
+    if (screenOrientation === "portrait-primary") {
+        document.getElementById("scroll-bar").style.height = scrolled + "%";
+    } else {
+        document.getElementById("scroll-bar").style.width = scrolled + "%";
+    }
 }
 
 window.onscroll = () => scrollProgress();
@@ -21,12 +45,16 @@ function setMenuLinkHeight() {
     for (let li of liElements) {
         const sectionId = li.firstChild.hash
         const sectionHeight = document.querySelector(`${sectionId}`).offsetHeight
-        let liHeight = Math.floor(((sectionHeight + offsetScrollIntoView) / documentHeight) * 100)
+        let liSize = Math.floor(((sectionHeight + offsetScrollIntoView) / documentHeight) * 100)
 
-        if (liHeight == Infinity) {
+        if (liSize == Infinity) {
             li.style.height = 0
         } else {
-            li.style.height = liHeight + "%"
+            if (screenOrientation === "portrait-primary") {
+                li.style.height = liSize + "%"
+            } else {
+                li.style.width = liSize + "%"
+            }
         }
     }
 }
