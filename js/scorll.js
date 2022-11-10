@@ -47,7 +47,6 @@ function setMenuLinkHeight() {
     console.log(documentHeight)
     const offsetScrollIntoView = 150
 
-
     for (let li of liElements) {
         const sectionId = li.firstChild.hash
         const sectionHeight = document.querySelector(`${sectionId}`).offsetHeight

@@ -18,6 +18,7 @@ body {
     font-size: 19px;
     color: #ffffff;
     background-color: #69807E;
+
 }
 
 h1,
@@ -272,14 +273,6 @@ footer {
     p {
         font-size: 15px;
         max-width: 20em;
-    }
-
-    #secondary-nav {
-        border-radius: 5px;
-        margin: 10vh 0 10vh 20px;
-        height: 80%;
-        position: fixed;
-        background-color: #202B31
     }
 
     #main-nav {
