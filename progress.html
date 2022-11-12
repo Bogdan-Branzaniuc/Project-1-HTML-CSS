@@ -6,71 +6,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="resources/fontawesome/css/all.css">
     <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/scrollbar-and-nav.css">
     <link rel="stylesheet" href="resources/css/progress.css">
-    <script src="js/scorll.js"></script>
 </head>
 
 <body>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="js/lottiePlayer.js"></script>
 
     <header>
-        <nav id="main-nav">
-            <a href="index.html" id="logo">
-                Nuclear Fusion
-            </a>
-            <div id="menu">
-                <ul>
-                    <li><a href="feedback.html">Feedback</a></li>
-                    <li><a href="progress.html" id="current-link">Progress</a></li>
-                    <li><a href="in-depth.html">In Depth</a></li>
-                    <li><a href="index.html">Home</a></li>
+        <div id="when-landscape-wrapper">
+            <nav id="main-nav">
+                <a href="index.html" id="logo">
+                    Nuclear Fusion
+                </a>
+                <div id="menu">
+                    <ul>
+                        <li><a href="index.html" id="current-link">Home</a></li>
+                        <li><a href="in-depth.html">In Depth</a></li>
+                        <li><a href="progress.html">Progress</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <nav id="secondary-nav">
+                <ul id="side-scroll-menu">
+                    <li><a href="#introductory-section" target="_self">
+                            <div id="link-area"><i class="fa-sharp fa-solid fa-sun"></i>
+                                <p class="side-menu-label">top</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li><a href="#fusion-explained" target="_self">
+                            <div id="link-area"><i class="fa-solid fa-scroll-torah"></i>
+                                <p class="side-menu-label">fusion</p>
+                            </div>
+
+                        </a>
+                    </li>
+                    <li><a href="#fision-explained" target="_self">
+                            <div id="link-area"><i class="fa-solid fa-explosion"></i>
+                                <p class="side-menu-label">fision</p>
+                            </div>
+
+                        </a>
+                    </li>
+                    <li><a href="#fusion-efficiency" target="_self">
+                            <div id="link-area"><i class="fa-solid fa-gears"></i>
+                                <p class="side-menu-label">efficiency</p>
+                            </div>
+
+                        </a>
+                    </li>
+                    <li><a href="#energy-storage" target="_self">
+                            <div id="link-area"><i class="fa-solid fa-battery-three-quarters"></i>
+                                <p class="side-menu-label">storage</p>
+                            </div>
+
+                        </a>
+                    </li>
                 </ul>
-            </div>
-        </nav>
-
-        <nav id="secondary-nav">
-            <ul id="side-scroll-menu">
-                <li><a href="#introduction-experiments-section" target="_self">
-                        <div id="link-area"><i class="fa-sharp fa-solid fa-sun"></i></div>
-                        <p class="side-menu-label">top</p>
-                    </a>
-                </li>
-                <li><a href="#Iter-section" target="_self">
-                        <div id="link-area"><i class="fa-solid fa-scroll-torah"></i></div>
-                        <p class="side-menu-label">I. ITER</p>
-                    </a>
-                </li>
-                <li><a href="#joint-european-torus-section" target="_self">
-                        <div id="link-area"><i class="fa-solid fa-explosion"></i></div>
-                        <p class="side-menu-label">II. JET</p>
-                    </a>
-                </li>
-                <li><a href="#wendelstein-section" target="_self">
-                        <div id="link-area"><i class="fa-solid fa-explosion"></i></div>
-                        <p class="side-menu-label">III. Wendelstein</p>
-                    </a>
-                </li>
-                <li><a href="#iv-mit-section" target="_self">
-                        <div id="link-area"><i class="fa-solid fa-explosion"></i></div>
-                        <p class="side-menu-label">IV. MIT</p>
-                    </a>
-                </li>
-                <li><a href="#iv-helion-section" target="_self">
-                        <div id="link-area"><i class="fa-solid fa-explosion"></i></div>
-                        <p class="side-menu-label">V. Helion</p>
-                    </a>
-                </li>
-                <li><a href="#v-other-experiments-section" target="_self">
-                        <div id="link-area"><i class="fa-solid fa-explosion"></i></div>
-                        <p class="side-menu-label">VI. Other Experiments</p>
-                    </a>
-                </li>
-
-            </ul>
-            <div id="scroll-bar"></div>
-        </nav>
+                <div id="scroll-bar"></div>
+            </nav>
+        </div>
     </header>
 
     <section id="introduction-experiments-section" class="progress-section-template">
