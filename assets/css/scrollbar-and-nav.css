@@ -63,6 +63,15 @@
 }
 
 
+
+@media screen and (max-width:1000px) {
+    #secondary-nav {
+        width: 25px;
+        font-size: 70%;
+    }
+}
+
+
 @media (orientation: landscape) {
     #secondary-nav {
         position: relative;
@@ -122,5 +131,11 @@
     #side-scroll-menu li a #link-area>* {
         line-height: 100%;
         display: inline-block;
+    }
+}
+
+@media screen and (max-height: 900px) and (orientation: landscape) {
+    #secondary-nav {
+        height: 30%;
     }
 }

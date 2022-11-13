@@ -6,10 +6,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="resources/fontawesome/css/all.css">
-    <link rel="stylesheet" href="resources/css/style.css">
-    <link rel="stylesheet" href="resources/css/main-nav.css">
-    <link rel="stylesheet" href="resources/css/scrollbar-and-nav.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/main-nav.css">
+    <link rel="stylesheet" href="assets/css/scrollbar-and-nav.css">
 
 </head>
 
@@ -23,7 +23,8 @@
                 <a href="index.html" id="logo">
                     Nuclear Fusion
                 </a>
-                <a href="#" onclick="return false;" id="burger-icon"><i class="fa-solid fa-bars"></i></a>
+                <a id="burger-icon"><i class="fa-solid fa-bars"></i></a>
+                <!-- I took out the href attribute as the interraction of this button lais in assets/js/click-burger-icon.js file -->
                 <div id="menu">
                     <ul>
                         <li><a href="index.html" id="current-link">Home</a></li>
@@ -60,7 +61,6 @@
                             <div id="link-area"><i class="fa-solid fa-gears"></i>
                                 <p class="side-menu-label">efficiency</p>
                             </div>
-
                         </a>
                     </li>
                     <li><a href="#energy-storage" target="_self">
@@ -78,14 +78,14 @@
 
     <section id="introductory-section">
         <div id="lottie-foreground" class="lottie-intro-section-animation">
-            <lottie-player src="resources/lottie-files/tokamak-backgroun.json" background="transparent" speed="1"
-                autoplay loop></lottie-player>
+            <lottie-player src="assets/lottie-files/tokamak-backgroun.json" background="transparent" speed="1" autoplay
+                loop></lottie-player>
         </div>
         <div id="gradient-intro-section-lottie"></div>
 
         <div id="lottie-background" class="lottie-intro-section-animation">
-            <lottie-player src="resources/lottie-files/tokamak-foreground.json" background="transparent" speed="1"
-                autoplay loop></lottie-player>
+            <lottie-player src="assets/lottie-files/tokamak-foreground.json" background="transparent" speed="1" autoplay
+                loop></lottie-player>
         </div>
 
         <div class="text-heading">
@@ -179,7 +179,8 @@
         <i class="fa-brands fa-twitter"></i>
         <i class="fa-brands fa-youtube"></i>
         <h4>copyright</h4>
-        <script src="js/scroll.js"></script>
+        <script src="assets/js/scroll.js"></script>
+        <script src="assets/js/click-burger-icon.js"></script>
     </footer>
 </body>
 

@@ -1,23 +1,3 @@
-function responsiveToResizing() {
-
-    let screenOrientation
-
-    window.onload = () => {
-        if (window.innerHeight > window.innerWidth) {
-            screenOrientation = "portrait-primary"
-        } else {
-            screenOrientation = "landscape-primary"
-        }
-        setMenuLinkHeight(screenOrientation)
-    }
-    window.addEventListener("resize", () => {
-        window.location.reload()
-    })
-    window.onresize = () => window.location.reload()
-
-    window.onscroll = () => scrollProgress(screenOrientation);
-}
-
 function scrollProgress(screenOrientation) {
     const scroll = document.body.scrollTop || document.documentElement.scrollTop;
     const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
@@ -28,6 +8,10 @@ function scrollProgress(screenOrientation) {
     } else {
         document.getElementById("scroll-bar").style.width = scrolled + "%";
     }
+}
+
+function createOffsetScrollIntoViewDivs(id, icon) {
+
 }
 
 function setMenuLinkHeight(screenOrientation) {
@@ -55,6 +39,21 @@ function setMenuLinkHeight(screenOrientation) {
             }
         }
     }
+}
+
+function responsiveToResizing() {
+    let screenOrientation
+    window.onload = () => {
+        if (window.innerHeight > window.innerWidth) {
+            screenOrientation = "portrait-primary"
+        } else {
+            screenOrientation = "landscape-primary"
+        }
+        setMenuLinkHeight(screenOrientation)
+    }
+    window.onorientationchange = () => window.location.reload()
+    window.onscroll = () => scrollProgress(screenOrientation);
+
 }
 
 responsiveToResizing()
