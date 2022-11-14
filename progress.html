@@ -6,26 +6,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="resources/fontawesome/css/all.css">
-    <link rel="stylesheet" href="resources/css/style.css">
-    <link rel="stylesheet" href="resources/css/main-nav.css">
-    <link rel="stylesheet" href="resources/css/scrollbar-and-nav.css">
-    <link rel="stylesheet" href="resources/css/progress.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/main-nav.css">
+    <link rel="stylesheet" href="assets/css/scrollbar-and-nav.css">
+    <link rel="stylesheet" href="assets/css/progress.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
 </head>
 
 <body>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="js/lottiePlayer.js"></script>
+
     <header>
         <div id="when-landscape-wrapper">
             <nav id="main-nav">
                 <a href="index.html" id="logo">
                     Nuclear Fusion
                 </a>
-                <a href="#" onclick="return false;" id="burger-icon"><i class="fa-solid fa-bars"></i></a>
+                <a id="burger-icon"><i class="fa-solid fa-bars"></i></a>
+                <!-- I took out the href attribute as the interraction of this button lais in assets/js/click-burger-icon.js file -->
                 <div id="menu">
                     <ul>
-                        <li><a href="index.html" id="current-link">Home</a></li>
+                        <li><a href="index.html">Home</a> </li>
                         <li><a href="in-depth.html">In Depth</a></li>
-                        <li><a href="progress.html">Progress</a></li>
+                        <li><a href="progress.html" id="current-link">Progress</a></li>
                         <li><a href="feedback.html">Feedback</a></li>
                     </ul>
                 </div>
@@ -57,7 +62,6 @@
                             <div id="link-area"><i class="fa-solid fa-gears"></i>
                                 <p class="side-menu-label">efficiency</p>
                             </div>
-
                         </a>
                     </li>
                     <li><a href="#energy-storage" target="_self">
@@ -72,7 +76,6 @@
             </nav>
         </div>
     </header>
-
     <section id="introduction-experiments-section" class="progress-section-template">
         <div class="text-wrapper">
             <h1>Experiments</h1>
@@ -579,7 +582,18 @@
                 over
                 time.</p>
         </div>
+        <br><br><br><br>
+        <div class="section-heading-container">
+            <h1>Work in progress...</h1>
+        </div>
+
+        <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_a9thB9.json" background="transparent"
+            speed="1" style="width: 100%;" loop autoplay></lottie-player>
     </section>
+    <script src="assets/js/scroll.js"></script>
+    <script src="assets/js/click-burger-icon.js"></script>
+    <script src="https://kit.fontawesome.com/dce6083355.js" crossorigin="anonymous"></script>
+    <script src="assets/js/lottie-players.js"></script>
     <footer>
         <h1>Nuclear Fusion</h1>
         <i class="fa-brands fa-facebook"></i>

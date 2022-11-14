@@ -5,7 +5,7 @@
 #secondary-nav {
     position: fixed;
     border-radius: 5px;
-    margin: 14vh 0 14vh 10px;
+    margin: 10vh 0 14vh 10px;
     height: 75%;
     width: 35px;
     background-color: #202B31;
@@ -68,7 +68,9 @@
 @media screen and (max-width:1000px) {
     #secondary-nav {
         width: 25px;
+        max-height: 600px;
         font-size: 70%;
+        margin: 10vh 5px;
     }
 }
 
