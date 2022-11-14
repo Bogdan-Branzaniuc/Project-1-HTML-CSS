@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/main-nav.css">
     <link rel="stylesheet" href="assets/css/scrollbar-and-nav.css">
-
+    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
 </head>
 
 <body>
@@ -121,11 +121,15 @@
                 occur.
             </p><br>
         </div>
-        <div class="animation-div" id="fusion-explained-animation"></div>
+        <div class="animation-div" id="fusion-explained-animation">
+            <lottie-player id="fusion-lottie" class="home-lottie-player-animation-template"
+                src="https://assets3.lottiefiles.com/private_files/lf30_KlZDSB.json" background="transparent"
+                speed="0.8" loop autoplay></lottie-player>
+        </div>
     </section>
     <section id="fision-explained" class="home-page-section-template">
         <div class="text-heading">
-            <h2>Fision</h2><br>
+            <h2>Fission</h2><br>
             <p>In a Fission reaction, we are looking at a bigger atom that gets split into two or more smaller
                 nuclei by
                 a proton traveling at a certain speed.</p><br>
@@ -136,7 +140,11 @@
                 waste
                 gets generated</p><br>
         </div>
-        <div class="animation-div" id="fision-explained-animation"></div>
+        <div class="animation-div" id="fision-explained-animation">
+            <lottie-player class="home-lottie-player-animation-template" id="fission-lottie"
+                src="https://assets8.lottiefiles.com/packages/lf20_gb5bmwlm.json" background="transparent">
+            </lottie-player>
+        </div>
     </section>
     <section id="fusion-efficiency" class="home-page-section-template">
         <div class="text-heading">
@@ -148,7 +156,11 @@
                 equivalent of 1-2% of the UK's total electricity usage).</p> <br>
             <p>This is to say that there's still a long way to go, </p>
         </div>
-        <div class="animation-div" id="fusion-efficency-animation"></div>
+        <div class="animation-div" id="fusion-efficency-animation">
+            <lottie-player class="home-lottie-player-animation-template"
+                src="https://assets5.lottiefiles.com/private_files/lf30_mgoytxgw.json" background="transparent"
+                speed="1" loop autoplay></lottie-player>
+        </div>
     </section>
     <section id="energy-storage" class="energy-storage-section home-page-section-template">
         <div class="text-heading">
@@ -165,10 +177,12 @@
             </p><br>
         </div>
         <div class="animation-div" id="energy-storage-animation">
-
+            <lottie-player class="home-lottie-player-animation-template"
+                src="https://assets6.lottiefiles.com/packages/lf20_bwglajuj.json" background="transparent" speed="1"
+                loop autoplay></lottie-player>
         </div>
     </section>
-    <section class="home-page-section-template">
+    <section class="home-page-section-template" id="iframe-youtube-batteryes-section">
         <iframe src="https://www.youtube.com/embed/r4OWMSG4Agg" frameborder="0" id="iframe-youtube-homepage"
             allowfullscreen></iframe>
     </section>
@@ -183,8 +197,8 @@
     <script src="assets/js/scroll.js"></script>
     <script src="assets/js/click-burger-icon.js"></script>
     <script src="https://kit.fontawesome.com/dce6083355.js" crossorigin="anonymous"></script>
+    <script src="assets/js/lottie-players.js"></script>
 
 </body>
-
 
 </html>

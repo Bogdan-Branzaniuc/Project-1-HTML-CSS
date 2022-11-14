@@ -35,16 +35,6 @@ li>a {
     color: inherit;
 }
 
-.home-page-section-template {
-    display: flex;
-    align-items: stretch;
-    flex-wrap: wrap;
-    min-height: 70%;
-    width: 80%;
-    padding-left: 15%;
-    margin: 2% 0;
-}
-
 #introductory-section {
     background: rgb(32, 43, 49);
     background: linear-gradient(180deg, rgba(32, 43, 49, 1) 15%, rgba(32, 43, 49, 0.7231267507002801) 46%, rgba(32, 43, 49, 0) 100%);
@@ -99,6 +89,20 @@ li>a {
 }
 
 
+
+.home-page-section-template {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 70%;
+    padding: 0 15%;
+    width: 70%;
+    margin: 2% 0;
+    z-index: -2;
+}
+
 .home-page-section-template .text-heading {
     display: inline-block;
     max-width: 500px;
@@ -106,11 +110,28 @@ li>a {
     text-align: left;
 }
 
+.home-page-section-template .animation-div {
+    position: absolute;
+    top: 100px;
+    right: 10%;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
 
+.home-lottie-player-animation-template {
+    right: 0%;
+    width: 100%;
+    z-index: -3;
+}
 
 #iframe-youtube-homepage {
-    width: 70%;
+    width: 80%;
     height: 600px;
+    margin-top: 25%;
+    border-radius: 5px;
 }
 
 .section-wrapper-2-columns {
@@ -175,11 +196,41 @@ footer {
     }
 
     .home-page-section-template {
-        padding-left: 10%;
+        padding: 0 10%;
+    }
+
+    .home-page-section-template .animation-div {
+        right: 0;
     }
 }
 
-@media screen and (max-width:1200px) {}
+@media screen and (max-width:1200px) {
+    body {
+        font-size: 15px;
+    }
+
+    p {
+        width: 20em;
+    }
+
+    .wrapper-column1 h1,
+    h2,
+    .wrapper-column2 h1,
+    h2 {
+        margin: 0 0 15px 0;
+    }
+
+    .home-page-section-template .animation-div {
+        width: 50%;
+        top: 50px;
+    }
+
+    #iframe-youtube-homepage {
+        margin-top: 20%;
+        height: 400px;
+        width: 100%;
+    }
+}
 
 @media screen and (max-width:800px) {
 
@@ -187,28 +238,75 @@ footer {
     h2,
     h3,
     h4 {
-        width: 15em;
+        width: 20em;
         letter-spacing: 2px;
         font-size: 20px;
     }
 
     p {
         font-size: 15px;
-        width: 15em;
+        width: 25em;
     }
 
+    #introductory-section {
+        padding-top: 50%;
+        height: 70vh;
+    }
 
+    #introductory-section .text-heading {
+        margin-bottom: 6%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #introductory-section .text-heading>* {
+        width: 100%;
+        font-size: 100%;
+        top: -20%;
+        padding-right: 10%;
+    }
 
     #gradient-intro-section-lottie {
-        width: 150%;
+        width: 130%;
         left: 0;
         padding-left: 70%;
     }
 
     .lottie-intro-section-animation {
-        scale: 4.0;
-        right: 20%;
+        scale: 2.3;
+        right: 10%;
+        top: 10%;
     }
+
+    .home-page-section-template {
+        padding-left: 15%;
+        width: 75%;
+        margin: 50% 0;
+    }
+
+    .home-page-section-template .animation-div {
+        left: 10%;
+        top: 70%;
+        width: 60%;
+    }
+
+    .home-page-section-template .text-heading {
+        width: 90%;
+    }
+
+    #iframe-youtube-batteryes-section {
+        margin-top: 30%;
+        height: 80vh;
+    }
+
+    #iframe-youtube-homepage {
+        margin-top: 40%;
+        height: 400px;
+        width: 80%;
+        border-radius: 5px;
+    }
+
+
 }
 
 @media screen and (max-width:600px) {
@@ -217,7 +315,7 @@ footer {
     h2,
     h3,
     h4 {
-        width: 20em;
+        width: 10em;
         letter-spacing: 2px;
         font-size: 20px;
     }
@@ -226,6 +324,30 @@ footer {
         font-size: 15px;
         width: 20em;
     }
+
+    #gradient-intro-section-lottie {
+        width: 130%;
+        left: 0;
+        padding-left: 70%;
+    }
+
+    .lottie-intro-section-animation {
+        scale: 3.0;
+        right: 10%;
+        top: 10%;
+    }
+
+    #iframe-youtube-homepage {
+        margin-top: 40%;
+        margin-left: 3%;
+        height: 200px;
+        width: 100%;
+    }
+
+    #introductory-section .text-heading {
+        margin-bottom: 10%;
+        width: 18em;
+    }
 }
 
 @media (orientation: landscape) {
@@ -233,4 +355,39 @@ footer {
         scale: 1;
         right: 0;
     }
+}
+
+@media screen and (max-height:500px) and (orientation: landscape) {
+    #introductory-section {
+        height: 300%;
+        padding: 25% 0;
+    }
+
+    #gradient-intro-section-lottie {
+        min-height: 170%;
+        bottom: 0;
+    }
+
+    .lottie-intro-section-animation {
+        scale: 1;
+        right: 0;
+        top: -15%;
+    }
+
+    .home-page-section-template .animation-div {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .home-page-section-template {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    #introductory-section .text-heading {
+        margin-bottom: 10%;
+        width: 15em;
+    }
+
 }
