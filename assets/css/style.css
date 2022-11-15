@@ -61,16 +61,18 @@ li>a {
 #lottie-foreground-purple-dots {
     position: absolute;
     width: 25%;
-    left: 20%;
+    left: 26%;
     z-index: -1;
+    opacity: 30%;
 }
 
 #lottie-foreground-red-dots {
     position: absolute;
-    left: 30%;
+    left: 50%;
     width: 15%;
     opacity: 50%;
     z-index: -1;
+    transform: rotate(90deg);
 }
 
 #lottie-circular-floating-lines {
@@ -78,6 +80,14 @@ li>a {
     right: 0;
     width: 50%;
     opacity: 50%;
+    z-index: -1;
+}
+
+#lottie-lines-floating {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    opacity: 100%;
     z-index: -1;
 }
 
@@ -123,7 +133,7 @@ li>a {
     min-height: 70%;
     padding: 0 15%;
     width: 70%;
-    margin: 2% 0;
+    margin: 10% 0;
     z-index: -1;
 }
 
@@ -309,8 +319,8 @@ h2 {
     }
 
     .home-page-section-template .animation-div {
-        left: 10%;
-        top: 70%;
+        left: 30%;
+        top: 75%;
         width: 60%;
     }
 
