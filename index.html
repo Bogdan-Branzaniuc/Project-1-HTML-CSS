@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/main-nav.css">
     <link rel="stylesheet" href="assets/css/scrollbar-and-nav.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
     <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
 </head>
 
@@ -75,14 +76,24 @@
             </nav>
         </div>
     </header>
-
     <section id="introductory-section">
         <div id="lottie-foreground" class="lottie-intro-section-animation">
             <lottie-player src="assets/lottie-files/tokamak-backgroun.json" background="transparent" speed="1" autoplay
                 loop></lottie-player>
         </div>
-        <div id="gradient-intro-section-lottie"></div>
+        <lottie-player id="lottie-foreground-purple-dots" class="lottie-intro-section-animation"
+            src="assets/lottie-files/purple-dots.json" background="transparent" speed="0.4" autoplay loop>
+        </lottie-player>
+        <lottie-player id="lottie-foreground-red-dots" class="lottie-intro-section-animation"
+            src="assets/lottie-files/red-dots.json" background="transparent" speed="0.6" autoplay loop>
+        </lottie-player>
+        <lottie-player id="lottie-circular-floating-lines" class="lottie-intro-section-animation"
+            src="assets/lottie-files/circle-lines.json" id="red-dots-lottie-player" background="transparent" speed="0.3"
+            autoplay loop>
+        </lottie-player>
 
+
+        <div id="gradient-intro-section-lottie"></div>
         <div id="lottie-background" class="lottie-intro-section-animation">
             <lottie-player src="assets/lottie-files/tokamak-foreground.json" background="transparent" speed="1" autoplay
                 loop></lottie-player>
@@ -187,12 +198,30 @@
             allowfullscreen></iframe>
     </section>
     <footer>
-        <h1>Nuclear Fusion</h1>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-youtube"></i>
-        <h4>copyright</h4>
+        <div id="icons-container">
+            <a href="">
+                <lottie-player src="assets/lottie-files/lottie-icons/outlines.json" background="transparent " speed="1"
+                    class="footer-lottie-icon" loop autoplay>
+                </lottie-player>
+            </a>
+            <a href="">
+                <lottie-player src="assets/lottie-files/lottie-icons/instagram.json" background="transparent "
+                    class="footer-lottie-icon" speed="1" loop autoplay></lottie-player>
+            </a>
+            <a href="">
+                <lottie-player src="assets/lottie-files/lottie-icons/youtube.json" background="transparent "
+                    class="footer-lottie-icon" speed="0.5" loop autoplay></lottie-player>
+            </a>
+            <a href="">
+                <lottie-player src="assets/lottie-files/lottie-icons/linkedin.json" background="transparent "
+                    class="footer-lottie-icon" speed="1" loop autoplay></lottie-player>
+            </a>
+            <a href="">
+                <lottie-player src="assets/lottie-files/lottie-icons/facebook.json" background="transparent "
+                    class="footer-lottie-icon" speed="0.5" loop autoplay></lottie-player>
+            </a>
+        </div>
+
     </footer>
     <script src="assets/js/scroll.js"></script>
     <script src="assets/js/click-burger-icon.js"></script>

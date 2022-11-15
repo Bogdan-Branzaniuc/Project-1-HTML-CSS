@@ -6,25 +6,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="resources/fontawesome/css/all.css">
-    <link rel="stylesheet" href="resources/css/style.css">
-    <link rel="stylesheet" href="resources/css/main-nav.css">
-    <link rel="stylesheet" href="resources/css/scrollbar-and-nav.css">
-    <link rel="stylesheet" href="resources/css/in-depth.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/main-nav.css">
+    <link rel="stylesheet" href="assets/css/scrollbar-and-nav.css">
+    <link rel="stylesheet" href="assets/css/in-depth.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
 </head>
 
 <body>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="js/lottiePlayer.js"></script>
+
     <header>
         <div id="when-landscape-wrapper">
             <nav id="main-nav">
                 <a href="index.html" id="logo">
                     Nuclear Fusion
                 </a>
-                <a href="#" onclick="return false;" id="burger-icon"><i class="fa-solid fa-bars"></i></a>
+                <a id="burger-icon"><i class="fa-solid fa-bars"></i></a>
+                <!-- I took out the href attribute as the interraction of this button lais in assets/js/click-burger-icon.js file -->
                 <div id="menu">
                     <ul>
-                        <li><a href="index.html" id="current-link">Home</a></li>
-                        <li><a href="in-depth.html">In Depth</a></li>
+                        <li><a href="index.html">Home</a> </li>
+                        <li><a href="in-depth.html" id="current-link">In Depth</a></li>
                         <li><a href="progress.html">Progress</a></li>
                         <li><a href="feedback.html">Feedback</a></li>
                     </ul>
@@ -57,7 +62,6 @@
                             <div id="link-area"><i class="fa-solid fa-gears"></i>
                                 <p class="side-menu-label">efficiency</p>
                             </div>
-
                         </a>
                     </li>
                     <li><a href="#energy-storage" target="_self">
@@ -99,17 +103,16 @@
                 helium.</p>
         </div>
 
-        <div class="text-wrapper">
-            <h1>From hydrogen to helium in three steps </h1>
-            <ul>
-                <li>In the first stage two protons combine and one of them converts into a neutron to form a nucleus of
-                    the heavy isotope of hydrogen known as deuterium.
-                </li>
-                <li>Next, the deuterium nucleus combines with another proton to form the light helium isotope known as
-                    helium-3.
-                </li>
-                <li>Finally, two helium-3 nuclei combine to form helium-4, releasing two protons.</li>
-            </ul>
+        <h1>From hydrogen to helium in three steps </h1>
+        <ul>
+            <li>In the first stage two protons combine and one of them converts into a neutron to form a nucleus of
+                the heavy isotope of hydrogen known as deuterium.
+            </li>
+            <li>Next, the deuterium nucleus combines with another proton to form the light helium isotope known as
+                helium-3.
+            </li>
+            <li>Finally, two helium-3 nuclei combine to form helium-4, releasing two protons.</li>
+        </ul>
         </div>
 
         <div class="text-wrapper">
@@ -120,6 +123,9 @@
                 each conversion of four hydrogen nuclei into a helium nucleus is about 10 million times more than is
                 produced by the chemical reaction when hydrogen combines with oxygen to form water.</p>
         </div>
+        <p>this youtube video is explaining a really big deal about fusion even though it's scarying me</p>
+        <iframe src="https://www.youtube.com/embed/JurplDfPi3U" frameborder="0" allowfullscreen></iframe>
+        <div class="text-wrapper">
     </section>
     <section id="history-of-fusion-section">
         <div class="text-wrapper">
@@ -179,6 +185,7 @@
         <div class="text-wrapper">
             <p>Source: (Eurofusion Consortium - https://www.euro-fusion.org/fusion/history-of-fusion/) </p>
         </div>
+
     </section>
     <footer>
         <h1>Nuclear Fusion</h1>
@@ -189,6 +196,12 @@
         <h4>copyright</h4>
         <script src="js/scorll.js"></script>
     </footer>
+
+    </footer>
+    <script src="assets/js/scroll.js"></script>
+    <script src="assets/js/click-burger-icon.js"></script>
+    <script src="https://kit.fontawesome.com/dce6083355.js" crossorigin="anonymous"></script>
+    <script src="assets/js/lottie-players.js"></script>
 </body>
 
 </html>
