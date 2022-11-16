@@ -23,7 +23,8 @@ function setMenuLinkHeight(screenOrientation) {
     const offsetScrollIntoView = 150
 
     for (let li of liElements) {
-        const sectionId = li.firstChild.hash
+        let sectionId = li.firstChild.hash
+
         const sectionHeight = document.querySelector(`${sectionId}`).offsetHeight
         let liSize = Math.floor(((sectionHeight + offsetScrollIntoView) / documentHeight) * 100)
 
