@@ -53,7 +53,7 @@
 }
 
 #main-nav #menu li:hover {
-    scale: 1.2;
+    transform: scale(1.2);
 }
 
 
@@ -95,7 +95,7 @@
     }
 
     #main-nav #burger-icon:hover>i {
-        scale: 1.3;
+        transform: scale(1.3);
     }
 
     #main-nav #menu {
@@ -186,7 +186,6 @@
     }
 
     #main-nav {
-        display: block-element;
         position: static;
         width: 100%;
         height: 70%;

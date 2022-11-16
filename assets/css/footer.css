@@ -19,7 +19,7 @@ footer #icons-container {
 }
 
 .footer-lottie-icon:hover {
-    scale: 1.2;
+    transform: scale(1.2);
 }
 
 #footer-info-wrapper {
@@ -32,8 +32,7 @@ footer #icons-container {
         width: 50px;
     }
 
-    #footer-info-wrapper h1,
-    #footer-info-wrapper p {
+    #footer-info-wrapper h1 {
         font-size: 80%;
     }
 }
