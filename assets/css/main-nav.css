@@ -141,14 +141,14 @@
 
     #main-nav #menu {
         font-size: 75%;
-        width: 8em;
+        width: 10em;
         letter-spacing: 3px;
         right: 0;
     }
 
     #main-nav #burger-icon {
-        right: 2%;
-        width: 8em;
+        right: 0;
+        width: 10em;
     }
 }
 
@@ -172,6 +172,7 @@
     #main-nav #burger-icon {
         font-size: 90%;
         width: 6em;
+        right: 2em;
     }
 }
 

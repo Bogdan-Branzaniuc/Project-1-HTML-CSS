@@ -10,13 +10,14 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/main-nav.css">
     <link rel="stylesheet" href="assets/css/scrollbar-and-nav.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/maintenance.css">
     <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
 </head>
 
 <body>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="js/lottiePlayer.js"></script>
-
     <header>
         <div id="when-landscape-wrapper">
             <nav id="main-nav">
@@ -36,69 +37,48 @@
             </nav>
 
             <nav id="secondary-nav">
-                <ul id="side-scroll-menu">
-                    <li><a href="#introductory-section" target="_self">
-                            <div id="link-area"><i class="fa-sharp fa-solid fa-sun"></i>
-                                <p class="side-menu-label">top</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li><a href="#fusion-explained" target="_self">
-                            <div id="link-area"><i class="fa-solid fa-scroll-torah"></i>
-                                <p class="side-menu-label">fusion</p>
-                            </div>
-
-                        </a>
-                    </li>
-                    <li><a href="#fision-explained" target="_self">
-                            <div id="link-area"><i class="fa-solid fa-explosion"></i>
-                                <p class="side-menu-label">fision</p>
-                            </div>
-
-                        </a>
-                    </li>
-                    <li><a href="#fusion-efficiency" target="_self">
-                            <div id="link-area"><i class="fa-solid fa-gears"></i>
-                                <p class="side-menu-label">efficiency</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li><a href="#energy-storage" target="_self">
-                            <div id="link-area"><i class="fa-solid fa-battery-three-quarters"></i>
-                                <p class="side-menu-label">storage</p>
-                            </div>
-
-                        </a>
-                    </li>
-                </ul>
                 <div id="scroll-bar"></div>
             </nav>
         </div>
     </header>
-    <section id="atomic History" style="padding-top:30%;">
-        <!-- css file -->
-        <lottie-player src="assets/lottie-files/working-man.json" background="transparent" speed="1" style="width: 50%;"
-            loop autoplay>
-        </lottie-player>
+    <section class="maintenance-section">
+        <h1>To be continued...</h1>
+        <div class="div-lottie-animation-maintenance-page">
+            <lottie-player class="lottie-animation-maintenance"
+                src="https://assets6.lottiefiles.com/packages/lf20_znCQsa.json" background="transparent" speed="1" loop
+                autoplay></lottie-player>
+        </div>
     </section>
-    <section id="Nuclear Fision"></section>
-    <section id="Nuclear Fusion"></section>
-    <section id="Types of reactors"></section>
-
     <footer>
-        <h1>Nuclear Fusion</h1>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-youtube"></i>
-        <h4>copyright</h4>
-        <script src="js/scorll.js"></script>
-    </footer>
-    <script src="assets/js/scroll.js"></script>
-    <script src="assets/js/click-burger-icon.js"></script>
-    <script src="https://kit.fontawesome.com/dce6083355.js" crossorigin="anonymous"></script>
-    <script src="assets/js/lottie-players.js"></script>
-    </footer>
+        <div id=" footer-info-wrapper">
+            <h1>Nuclear Fusion</h1>
+            <p>creator: Bogdan Branzaniuc</p>
+        </div>
+
+        <div id="icons-container">
+            <a href="https://www.facebook.com/" target="_blank">
+                <lottie-player src="assets/lottie-files/lottie-icons/facebook.json" background="transparent "
+                    class="footer-lottie-icon" speed="0.5" loop autoplay></lottie-player>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <lottie-player src="assets/lottie-files/lottie-icons/instagram.json" background="transparent "
+                    class="footer-lottie-icon" speed="1" loop autoplay></lottie-player>
+            </a>
+            <a href="https://www.youtube.com/watch?v=AJVToOxWgq4&t=450s&ab_channel=SubjectZeroScience" target="_blank">
+                <lottie-player src="assets/lottie-files/lottie-icons/youtube.json" background="transparent "
+                    class="footer-lottie-icon" speed="0.5" loop autoplay></lottie-player>
+            </a>
+            <a href="https://www.linkedin.com/in/branzaniuc-b-ba1807198/" target="_blank">
+                <lottie-player src="assets/lottie-files/lottie-icons/linkedin.json" background="transparent "
+                    class="footer-lottie-icon" speed="1" loop autoplay></lottie-player>
+            </a>
+
+        </div>
+
+        <script src="assets/js/scroll.js"></script>
+        <script src="assets/js/click-burger-icon.js"></script>
+        <script src="https://kit.fontawesome.com/dce6083355.js" crossorigin="anonymous"></script>
+        <script src="assets/js/lottie-players.js"></script>
 </body>
 
 </html>
