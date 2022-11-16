@@ -6,8 +6,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="fusion, nuclear, stellerator, JET, Torus, atoms, sun, fission">
-    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <meta name="keywords"
+        content="fusion, nuclear, stellerator, JET, Torus, atoms, sun, fission, protons, deuterium, tritium, energy">
+    <meta name="description" content="A web-page explaining what fusion energy is and why is it important">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/main-nav.css">
     <link rel="stylesheet" href="assets/css/scrollbar-and-nav.css">
@@ -25,8 +26,7 @@
                 <a href="index.html" id="logo">
                     Nuclear Fusion
                 </a>
-                <a id="burger-icon"><i class="fa-solid fa-bars"></i></a>
-                <!-- I took out the href attribute as the interraction of this button lais in assets/js/click-burger-icon.js file -->
+                <div id="burger-icon"><i class="fa-solid fa-bars"></i></div>
                 <div id="menu">
                     <ul>
                         <li><a href="index.html" id="current-link">Home</a> </li>
@@ -52,9 +52,9 @@
 
                         </a>
                     </li>
-                    <li><a href="#fision-explained" target="_self">
+                    <li><a href="#fission-explained" target="_self">
                             <div id="link-area"><i class="fa-solid fa-explosion"></i>
-                                <p class="side-menu-label">fision</p>
+                                <p class="side-menu-label">fission</p>
                             </div>
 
                         </a>
@@ -80,7 +80,7 @@
     <section id="introductory-section">
         <div id="lottie-foreground" class="lottie-intro-section-animation">
             <lottie-player src="assets/lottie-files/tokamak-intro-animation/tokamak-background-and-animated.json"
-                background="transparent" speed="0.4" autoplay loop></lottie-player>
+                background="transparent" speed="0.3" autoplay loop></lottie-player>
         </div>
         <lottie-player id="lottie-circular-floating-lines" class="lottie-intro-section-animation"
             src="assets/lottie-files/tokamak-intro-animation/circle-lines.json" id="red-dots-lottie-player"
@@ -131,7 +131,7 @@
             </lottie-player>
         </div>
     </section>
-    <section id="fision-explained" class="home-page-section-template">
+    <section id="fission-explained" class="home-page-section-template">
         <div class="text-heading">
             <h2>Fission</h2><br>
             <p>In a Fission reaction, we are looking at a bigger atom that gets split into two or more smaller
@@ -144,7 +144,7 @@
                 waste
                 gets generated</p><br>
         </div>
-        <div class="animation-div" id="fision-explained-animation">
+        <div class="animation-div" id="fission-explained-animation">
             <lottie-player class="home-lottie-player-animation-template" id="fission-lottie"
                 src="https://assets8.lottiefiles.com/packages/lf20_gb5bmwlm.json" background="transparent">
             </lottie-player>
@@ -185,8 +185,9 @@
             </lottie-player>
         </div>
         <section id="iframe-youtube-batteryes-section">
-            <iframe src="https://www.youtube.com/embed/r4OWMSG4Agg" frameborder="0" id="iframe-youtube-homepage"
-                allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/r4OWMSG4Agg"
+                title="Great youtube video made by Ted-Ed about how many types of energy storage sistems, batteryes, humans built and use already"
+                frameborder="0" id="iframe-youtube-homepage" allowfullscreen></iframe>
         </section>
     </section>
 
@@ -195,7 +196,6 @@
             <h1>Nuclear Fusion</h1>
             <p>creator: Bogdan Branzaniuc</p>
         </div>
-
         <div id="icons-container">
             <a href="https://www.facebook.com/" target="_blank">
                 <lottie-player src="assets/lottie-files/lottie-icons/facebook.json" background="transparent "
@@ -215,7 +215,6 @@
             </a>
 
         </div>
-
     </footer>
     <script src="assets/js/scroll.js"></script>
     <script src="assets/js/click-burger-icon.js"></script>
