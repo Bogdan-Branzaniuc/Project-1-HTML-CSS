@@ -123,7 +123,7 @@ for more documentation here are two essential links : <br>
     - the next 4 sections are using 1 class with "display: flex;" property.
     - the Iframe is resting in the last section, in it's own flex-container, being at the center of the page at all times. 
     - the footer has it's own css file.
-    ## the To Be Continued Page has it's own css file : 
+    ## the To Be Continued Page uses 1 css document : 
         - maintenance.css
 
 
