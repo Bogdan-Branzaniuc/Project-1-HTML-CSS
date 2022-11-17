@@ -193,10 +193,13 @@ for more documentation here are two essential links : <br>
   </tr> 
   </table>
 
+ ![](assets/img/responsive.png)
  
- 
+
  # Whire Frame
- In this case, Figma was used as a whire-frame
+  Figma was used as a whire-frame
+
+  ![](assets/img/figma.png)
 
 # Technoligies used
 HTML
