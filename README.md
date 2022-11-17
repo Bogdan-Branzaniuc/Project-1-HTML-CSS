@@ -2,8 +2,9 @@
 
 ## This is a project that provides it's users with knowledge about Nuclear Fusion <br>
 
+[link to the live deployed version website](https://bogdan-branzaniuc.github.io/Project-1-HTML-CSS/index.html)
 
-## Display ratios
+## Display
   ![asdasd](assets/img/multiple-devices.png)
 * Web-large
 * web-small
@@ -11,6 +12,7 @@
 * tablet-landscape
 * phone-portrait
 * phone-landscape
+
 ## Features
 
 * ## Main Navigation Bar
@@ -33,13 +35,30 @@
 - It has icons acting as links to various sections of the page
 - It is also using JS code to find the right distance between the icons, as the sections have different sizes, that gives the user a better idea of how the content ahead is structured  
 - By hovering or tocuhing the icons , a short title of the anchored section appears. <br>
+<br>
+<br>
+<br>
 
- ####  **when changing the screen orientation, the JS code is listening for the screen.orientation.onchange event to locally refresh the page, in order to deal with increasing height or width of the slider. This means the program wil only know the orientation is changed when the user uses the accelerometer of the phone or tablet by turning it. When manually resizing the browser, it currently requires a refresh of the page. This is a big minus in case somebody wants to resize the browser to fit on half ov their screen while doing something else on the computer.** 
- #### **I am sure it can be done in a better way.**
- this is the way it behaves without the manual refresh:
+
+################################################################################################<br>
+################################################################################################<br>
+################################################################################################<br>
+  # Unsolved Bug
+ ####  **when changing the screen orientation, the JS code is listening for the screen.orientation.onchange event to locally refresh the page, in order to deal with increasing height or width of the slider. This means the program wil only know the orientation is changed when the user is actioning the accelerometer of the phone or tablet by turning it.**  ####
+  #### When manually resizing the browser, it currently requires a refresh of the page. This is a big minus in case somebody wants to resize the browser to fit on half ov their screen while doing something else on the computer.** 
+ 
+ this is the way it behaves without the manual refresh when manually resizing the browser window: <br>
+
+ Once a refresh is made the JS is managing to read the screen orientation properly. 
  ![](assets/img/breaking-nav-scrollig-menu.png)
-<br><br><br><br>
 
+ ### I made a choice of focusing more on the required functions of the project, and I also made a clone of this repository so I'll be solving it in the future without interfering with the submittet project.
+################################################################################################<br>
+################################################################################################<br>
+################################################################################################<br>
+<br>
+<br>
+<br>
 # Throughout my project i used Lottie Animations. 
 ## theese are vector-shaped animations converted into JSON files which then can get interpreted by the Lottie Files JS functions to make the animations in the browser smooth and light-weight.
 
@@ -198,20 +217,21 @@ for more documentation here are two essential links : <br>
 
  # Whire Frame
   Figma was used as a whire-frame
-
   ![](assets/img/figma.png)
 
 # Technoligies used
-HTML
-CSS
-JavaScript
-LottieFiles - animations based on JSON files.
-Figma-design
-Adobe illustrator
-Adobe After Effects
+- HTML
+- CSS
+- JavaScript
+- [LottieFiles - animations based on JSON files.](https://lottiefiles.com/)
+- [Figma-design](https://www.figma.com/files/recent?fuid=722165586962807899)
+- Adobe illustrator
+- Adobe After Effects
 
 ## Testing
--light-house
+- light-house (i made sure to test the github hosted version, as it enables files-compression)
+  - desktop ![](assets/img/light-house-desktop.png)
+  - mobile ![](assets/img/light-house-mobile.png)
 -html validator
 -css-validator
 -js-validator
