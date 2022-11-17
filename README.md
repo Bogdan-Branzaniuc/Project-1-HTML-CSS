@@ -39,26 +39,6 @@
 <br>
 <br>
 
-
-################################################################################################<br>
-################################################################################################<br>
-################################################################################################<br>
-  # Unsolved Bug
- ####  **when changing the screen orientation, the JS code is listening for the screen.orientation.onchange event to locally refresh the page, in order to deal with increasing height or width of the slider. This means the program wil only know the orientation is changed when the user is actioning the accelerometer of the phone or tablet by turning it.**  ####
-  #### When manually resizing the browser, it currently requires a refresh of the page. This is a big minus in case somebody wants to resize the browser to fit on half ov their screen while doing something else on the computer.** 
- 
- this is the way it behaves without the manual refresh when manually resizing the browser window: <br>
-
- Once a refresh is made the JS is managing to read the screen orientation properly. 
- ![](assets/img/breaking-nav-scrollig-menu.png)
-
- ### I made a choice of focusing more on the required functions of the project, and I also made a clone of this repository so I'll be solving it in the future without interfering with the submittet project.
-################################################################################################<br>
-################################################################################################<br>
-################################################################################################<br>
-<br>
-<br>
-<br>
 # Throughout my project i used Lottie Animations. 
 ## theese are vector-shaped animations converted into JSON files which then can get interpreted by the Lottie Files JS functions to make the animations in the browser smooth and light-weight.
 
@@ -225,21 +205,74 @@ for more documentation here are two essential links : <br>
 - JavaScript
 - [LottieFiles - animations based on JSON files.](https://lottiefiles.com/)
 - [Figma-design](https://www.figma.com/files/recent?fuid=722165586962807899)
-- Adobe illustrator
-- Adobe After Effects
+- Adobe illustrator   (fully licensed)
+- Adobe After Effects (fully licensed)
 
 ## Testing
-- light-house (i made sure to test the github hosted version, as it enables files-compression)
+- light-house (I made sure to test the github hosted version, as it enables files-compression)
   - desktop ![](assets/img/light-house-desktop.png)
   - mobile ![](assets/img/light-house-mobile.png)
--html validator
--css-validator
--js-validator
--clicks
--whatIsMyScreenResolution.net
-## Illustrations and animations 
+- [W3C Markup Validator](https://validator.w3.org/) :  [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbogdan-branzaniuc.github.io%2FProject-1-HTML-CSS%2Findex.html)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) :  [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbogdan-branzaniuc.github.io%2FProject-1-HTML-CSS%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- [JSHint](https://jshint.com/) 
+  - results:
+    - click-burger-icon.js: ![](assets/img/burger-icon-js-validator.png)
+    - lottie-players.js: ![](assets/img/lottie-player-js-validator.png)
+    - scroll.js: ![](assets/img/scroll.js-validator.png)
 
-## Credits
+ - The website was viewed across multiple devices such as (large desktop(2560 x 1440 - 75hz), Android One Plus pro, iPhone X, G-series Dell Laptop)
+
+
+ # Known bugs:
+     - On the android OS, the first animation in the page, the tokamak reactor which is more complex, is flashing instead ov moving smoothly as designed, as there might not be enough frames per second to sustain the full information of the animation. When increasing the speed of the animation the flashes are decreasing, but that is not an ultimate solution.  
+     
+
+
+
+  # Unsolved Bug
+ ####  **when changing the screen orientation, the JS code is listening for the screen.orientation.onchange event to locally refresh the page, in order to deal with increasing height or width of the slider. This means the program wil only know the orientation is changed when the user is actioning the accelerometer of the phone or tablet by turning it.**  ####
+  #### When manually resizing the browser, it currently requires a refresh of the page. This is a big minus in case somebody wants to resize the browser to fit on half ov their screen while doing something else on the computer.** 
+ 
+ this is the way it behaves without the manual refresh when manually resizing the browser window: <br>
+
+ Once a refresh is made the JS is managing to read the screen orientation properly. 
+ ![](assets/img/breaking-nav-scrollig-menu.png)
+
+ ### I made a choice of focusing more on the required functions of the project, and I also made a clone of this repository so I'll be solving it in the future without interfering with the submittet project.
+
+<br>
+<br>
+<br>
+     
+
+# Deploiment
+The project is deployed to Gihub pages
+
+# Credits
+
+## Code
+
+ - All code was written by the developer
+ 
+## Content 
+ - All content was written by the developer, but inspired from various websites about the topic of Nuclear Fusion
+
+## Media
 - ### Youtube Iframe                                             
- - TED_Ed : https://www.youtube.com/watch?v=r4OWMSG4Agg&ab_channel=TED-Ed  The world's biggest battery looks nothing like a battery                                     
-- ### Lottie-files(animations)  
+   - TED_Ed : [The world's biggest battery looks nothing like a battery](https://www.youtube.com/watch?v=r4OWMSG4Agg&ab_channel=TED-Ed ) 
+- ### Lottie-files(animations) 
+   - Free animation files [lottiefiles.com](https://lottiefiles.com/)
+   this consists in all the animations used in the project, as well as the animated icons in the footer.
+- ### Icons
+   - The icons used throughout the project are from [fontawesome.com](https://fontawesome.com/)
+
+- ### Images and Static Vectors
+   - Images were only used for the readme file in the end, All of them rendered by the developer
+   - All static vectors, the tokamak reactor from the introductory section, was built and rendered by the developer using Adobe Illustrator and Adobe After Effects, 
+
+
+# Acknowledgements
+
+    - My Mentor for valuable support and advice.
+    - The Code Institute team, as they did a great job building the Course Programme.
+    - Myself as I developed and grew while working on this project.

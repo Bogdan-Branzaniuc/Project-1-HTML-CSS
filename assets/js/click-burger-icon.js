@@ -11,4 +11,4 @@ burgerMenu.onclick = function (event) {
     burgerMenuIcon.style.scale = burgerMenuClicked ? "1.3" : "1";
 
     burgerMenuClicked = !burgerMenuClicked;
-}
+};
